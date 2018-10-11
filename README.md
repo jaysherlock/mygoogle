@@ -1,0 +1,2 @@
+# mygoogle
+via index
