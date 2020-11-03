@@ -684,7 +684,7 @@ function clear_seach() {
 	input.focus();
 }
 function search(){if(document.getElementById("search_input").value != ""){
-window.location.href = "https://www.baidu.com/#ie={inputEncoding}&wd=%s" + encodeURIComponent(document.getElementById("search_input").value) + "&from=smor&safe=1&snum=1";
+window.location.href = "https://www.baidu.com/s?wd=%s" + encodeURIComponent(document.getElementById("search_input").value) + "&from=smor&safe=1&snum=1";
 document.getElementById("search_input").value = "";}return false;}
 
 document.getElementById('suglist').addEventListener('click', function(e) {
